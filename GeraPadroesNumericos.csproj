@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Functions\" />
+    <None Remove="Functions\Interfaces\" />
+    <None Remove="Service\" />
+    <None Remove="Service\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Functions\" />
+    <Folder Include="Functions\Interfaces\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\Model\" />
+  </ItemGroup>
+</Project>
